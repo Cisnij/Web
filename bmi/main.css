@@ -1,0 +1,51 @@
+html{
+   background:url('https://haycafe.vn/wp-content/uploads/2022/01/hinh-anh-galaxy-vu-tru-dep.jpg');
+    animation: moveBG 25s  ease infinite;
+    background-repeat: repeat;
+}
+@keyframes moveBG{
+0%{
+    background-position: center;
+}
+100%{
+    background-position: top center;
+}
+
+}
+:root{
+--text-color:rgb(145, 145, 219);
+
+}
+#tittle{
+color:rgb(172, 172, 192);
+text-align: center;
+}
+
+#info{
+color:var(--text-color);
+text-align: center;
+}
+
+#result{
+color:var(--text-color);
+cursor: pointer;
+text-align: center;
+}
+#send{
+    cursor: pointer;
+}
+#result2{
+    color:var(--text-color);
+    text-align: center;
+
+
+}
+#result3{
+    color:var(--text-color);
+    text-align: center;
+}
+#result4{
+   
+    color:var(--text-color);
+    text-align: center;
+}
